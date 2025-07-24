@@ -8,7 +8,7 @@ function ExcelViewer(el, url, opts = {}) {
 }
 ExcelViewer.prototype.defaultOpts = {
 	theme: "light",
-	themeBtn: true,
+	themeBtn: false,
 	lang: "en",
 	onload: null
 }
